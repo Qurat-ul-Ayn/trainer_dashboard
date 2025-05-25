@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 
 # Load data
-df = pd.read_excel("C:\\Users\\Admin\\OneDrive\\Desktop\\dashboard folder\\Trainer Information and Batch Monitoring Data.xlsx")
+df = pd.read_excel("Trainer Information and Batch Monitoring Data.xlsx")
 df.columns = df.columns.str.strip()
 
 # Clean numeric columns
